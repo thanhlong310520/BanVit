@@ -20,7 +20,7 @@ export class SpawnCtrl extends Component {
     }
 
     update(deltaTime: number) {
-        if (GameCtr.instance.isGameOver) return;
+        if (GameCtr.instance.isWait || GameCtr.instance.isGameOver) return;
         this.Spawn();
     }
 
@@ -29,6 +29,7 @@ export class SpawnCtrl extends Component {
             this.curentTime = 0;
             let obj = Spawner.instance.Spawning();
             this.SetData(obj);
+            GameCtr.instance.listObjSpawned.push(obj);
         }
         else {
             this.curentTime += game.deltaTime;

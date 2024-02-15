@@ -71,12 +71,7 @@ export class ObjCtr extends Component {
     }
 
     ContactDespawnBox() {
-        if (!this.isBoom) {
-            GameCtr.instance.CheckGameOver();
-        }
-        else {
-            console.log("boom");
-        }
+        GameCtr.instance.RemoveObj(this.node);
         this.scheduleOnce(() => { Spawner.instance.Despawn(this.node); }, 0.01);
     }
 
