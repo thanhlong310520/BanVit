@@ -1,5 +1,6 @@
 import { _decorator, Component, Node, PhysicsSystem2D, Vec2 } from 'cc';
 import { Spawner } from '../Game/Spawner';
+import { GameCtr } from '../Game/GameCtr';
 const { ccclass, property } = _decorator;
 
 @ccclass('HandleTouch')
@@ -18,6 +19,7 @@ export class HandleTouch extends Component {
         colliders.forEach(c => {
             //despawn;
             if (c.tag == 1) {
+                GameCtr.instance.RemoveObj(c.node);
                 Spawner.instance.Despawn(c.node);
             }
         })
