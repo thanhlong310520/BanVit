@@ -1,0 +1,49 @@
+{ "skeleton": { "images": "D:/Job/138/Anim2/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "1" },
+	{ "name": "2", "bone": "root", "attachment": "2" },
+	{ "name": "3", "bone": "root", "attachment": "3" },
+	{ "name": "4", "bone": "root", "attachment": "4" },
+	{ "name": "5", "bone": "root", "attachment": "5" },
+	{ "name": "6", "bone": "root", "attachment": "6" },
+	{ "name": "7", "bone": "root", "attachment": "7" },
+	{ "name": "8", "bone": "root", "attachment": "8" },
+	{ "name": "9", "bone": "root", "attachment": "9" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"1": { "x": 60, "y": -57, "width": 40, "height": 44 }
+		},
+		"2": {
+			"2": { "x": 59.5, "y": -56.5, "width": 37, "height": 37 }
+		},
+		"3": {
+			"3": { "x": 59.5, "y": -57, "width": 41, "height": 42 }
+		},
+		"4": {
+			"4": { "x": 60, "y": -57, "width": 54, "height": 56 }
+		},
+		"5": {
+			"5": { "x": 59.5, "y": -57, "width": 59, "height": 64 }
+		},
+		"6": {
+			"6": { "x": 60, "y": -57, "width": 88, "height": 78 }
+		},
+		"7": {
+			"7": { "x": 59.5, "y": -57, "width": 97, "height": 90 }
+		},
+		"8": {
+			"8": { "x": 59.5, "y": -56.5, "width": 111, "height": 105 }
+		},
+		"9": {
+			"9": { "x": 59.5, "y": -57, "width": 121, "height": 116 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

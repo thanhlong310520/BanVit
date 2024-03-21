@@ -1,0 +1,62 @@
+
+thienthach.png
+size: 369,526
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 271, 2
+  size: 106, 79
+  orig: 108, 81
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 214, 221
+  size: 133, 133
+  orig: 135, 135
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 2, 339
+  size: 210, 185
+  orig: 212, 187
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 2, 157
+  size: 203, 180
+  orig: 205, 182
+  offset: 1, 1
+  index: -1
+5
+  rotate: true
+  xy: 214, 356
+  size: 168, 145
+  orig: 170, 147
+  offset: 1, 1
+  index: -1
+6
+  rotate: false
+  xy: 2, 12
+  size: 151, 143
+  orig: 153, 145
+  offset: 1, 1
+  index: -1
+7
+  rotate: true
+  xy: 155, 16
+  size: 139, 114
+  orig: 141, 116
+  offset: 1, 1
+  index: -1
+8
+  rotate: true
+  xy: 271, 110
+  size: 109, 96
+  orig: 111, 98
+  offset: 1, 1
+  index: -1

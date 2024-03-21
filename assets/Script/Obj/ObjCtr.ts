@@ -33,7 +33,6 @@ export class ObjCtr extends Component {
             this.objMove.Moving(this.speed);
         }
         if (otherCollider.tag == 100) {
-            console.log("Despawn");
             this.ContactDespawnBox();
         }
     }
@@ -72,6 +71,11 @@ export class ObjCtr extends Component {
 
     ContactDespawnBox() {
         GameCtr.instance.RemoveObj(this.node);
+        if(!this.isBoom)
+        {
+            GameCtr.instance.currentCantShoot++;
+        } 
+        GameCtr.instance.CheckGameOver();
         this.scheduleOnce(() => { Spawner.instance.Despawn(this.node); }, 0.01);
     }
 
